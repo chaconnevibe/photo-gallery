@@ -1,0 +1,179 @@
+html {
+    background-color: #000000;
+    
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 1310px;
+}
+
+main {
+    background-color: white;
+    padding: 16px;
+}
+
+h1 {
+    color: #007d7b;
+    font-size: 40px;
+    display: inline-block;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 5px 0px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 0px 30px
+}
+
+nav a:hover {
+    color: #007d7b;
+}
+
+nav {
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 20px;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+div > div {
+    position: relative;
+    display: inline-block;
+}
+
+form {
+    color: #ffffff;
+    width: 850px;
+    margin: auto;
+    padding: 10px;
+}
+
+label {
+    font-size: 16px;
+}
+
+[href="#"] {
+    padding: 0 60px;
+}
+
+[href="#top"] {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: #007d7b;
+    padding: 10px 15px;
+}
+
+[href="#top"]:hover {
+    background-color: #ffffff;
+    color: #007d7b;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    text-size-adjust: 20px
+}
+
+input[type=submit] {
+    width: 40%;
+    background-color: #007d7b;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-size-adjust: 16px;
+    padding: 10px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 8px;
+}
+
+input::placeholder {
+    text-transform: uppercase;
+    color: #007d7b;
+}
+
+p[class*="left"] {
+    left: 5px;
+}
+p[class*="bottom"] {
+    bottom: 2px;
+}
+
+p[class*="white"] {
+    color: #ffffff;
+}
+
+p[class*="right"] {
+    right: 5px;
+}
+
+p[class*="top"] {
+    top: 2px;
+}
+
+.text {
+    position: absolute;
+    margin: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.banner {
+    max-width: 850px;
+}
+
+.intro {
+    float: right;
+    width: 420px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.intro p {
+    margin: 0px;
+}
+
+.gallery {
+    text-align: justify;
+    text-align-last: justify ;
+}
+
+.bottom-form h2, .bottom-form p{
+    color: #ffffff ;
+    text-align: center;
+    margin: 7px auto;
+}
+
+.button {
+    display: block;
+    margin: auto;
+}
